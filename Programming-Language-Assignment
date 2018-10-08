@@ -1,0 +1,71 @@
+PROGRAMMING LANGUAGE ASSIGNMENT:
+
+# Language= Python
+
+# Why ?
+       Python is a high level programming language with some unique features which differantiate it with other programming languages as-
+
+1.Easy - Easy to Code
+         Easy to read.
+
+2.Expressive- Provide simple syntax so one can focus more on solution.
+
+3.Free and open source- It is available for free and open source so anyone can start using it.
+
+4.Portable-Python is platform independent langauge.
+
+5.Interpreted-The source code in python gets compiled line by line without worrying linking libraries.
+
+6.Object Oriented-Python supports both procedure-oriented and object-oriented programming. It also supports multiple inheritance, unlike Java.
+
+7.Large standard Library-Python containing of libraries for regular expressions, documentation-generation, unit-testing, web browsers, threading, databases, CGI, email, image manipulation, and a lot of other functionality.
+
+8.GUI-Pytohn also provides its own GUI libraries.
+
+9.Dynamically Typed- Python Is dynamically typed as the type for values is decided at runtime.
+
+This all features of python makes it special.
+
+
+#code-
+a,b=10,20
+print (a+b)
+
+fruit='banana'
+print(fruit[1])
+
+x=3
+if x < 5:
+  print ("yes")
+else:
+  print ("no")
+
+x=1
+while x < 5:
+  x = x + 1 
+print(x) 
+
+
+
+#Code with Interpretation-
+a,b=10,20
+print (a+b)
+#As Python is a dynamically-typed programming language it decides variable type at runtime. so 'a','b' are declared and defined as integers at runtime.
+#The interpreter executes the the first instruction by loading values of a and b, push them into the stack.Then it will pop up both the elements and add them and push the result again into the stack and finally, it will pop the answer and prints it.
+
+fruit='banana'
+print(fruit[1])
+#The indexing ([]) operator selects a single element from the sequence.The expression fruit[1] selects the character with index 1 from fruit creates a new string containing just this one character 'a'.
+
+x=3
+if x < 5:
+  print ("yes")
+else:
+  print ("no")
+#The conditional "if x < 5" compiled into four instructions as x<5 generates code load value of x and load 5 and comares the two values and push the result into the interpreter's stack. Then pop up the top value of stack it is true then it executes the print statement for true, if founds false then Interpreter jumps to the another instrucion and executes the print statement for false. 
+
+x=1
+while x < 5:
+  x = x + 1 
+print(x) 
+#Python Interpreter executes loops quiet similar with the conditional statements. As first it loads the values for x and value 5, then compares the two vlaues and push the result into the stack. Pop up the result from the stack if it is true then executes the next instructions within the loop as "x-x+1" and jump back to the looping condition. If it found to be false then it will jump to the statement "print(x)" . While execution of looping statements the jump targets are to be set by the Interpreter.    
